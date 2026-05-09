@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective Date:** April 21, 2026
-**Last Updated:** April 21, 2026
+**Last Updated:** May 9, 2026
 
 Faraway ("we", "us", "our") builds ambient soundscape mixing tools. This Privacy Policy explains what we collect, why we collect it, and your choices.
 
@@ -13,8 +13,9 @@ When you use Faraway, we collect only what's needed to make the app work:
 - **App content.** Your saved soundscape mixes (title, description, layer volumes, mood tag).
 - **Onboarding preferences.** The mood you select during onboarding (e.g., sleep, focus, relax).
 - **Purchase information.** Your subscription status and purchase history, managed via RevenueCat and the Apple App Store.
+- **Diagnostic information.** When the app encounters an error or crash, we collect a stack trace, the type of error, and your unique user identifier so we can diagnose and fix stability issues. We do not collect prompts, console logs, or device advertising identifiers in these reports.
 
-We do **not** collect: analytics events, crash reports, device advertising identifiers, location, contacts, browsing data, or any behavioral tracking data.
+We do **not** collect: analytics events, device advertising identifiers, location, contacts, browsing data, or any behavioral tracking data.
 
 ## How we use your data
 
@@ -32,6 +33,7 @@ Faraway uses the following services as data processors:
 - **Apple** — App Store, Sign in with Apple, In-App Purchases.
 - **Google** — Sign in with Google.
 - **Anthropic** — AI. When you use the AI mix generator, we send your text prompt to Anthropic's Claude API to generate a soundscape. Prompts are used only for generating the response and are not stored by us beyond that request.
+- **Sentry** — crash and error reporting. Receives stack traces and your unique user identifier when the app encounters an error, so we can diagnose stability issues. Sentry does not receive prompts, console logs, or device advertising identifiers.
 
 We do **not** share or sell your personal data to advertisers or data brokers. We do **not** use your data for tracking across other apps or websites.
 
